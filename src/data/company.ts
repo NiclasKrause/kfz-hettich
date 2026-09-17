@@ -1,0 +1,28 @@
+export const company = {
+  name: "Hettich",
+  legalName: "Hettich, KfZ-Meisterbetrieb",
+  street: "Haderslebener Str. 17",
+  zip: "25421",
+  place: "Pinneberg",
+  phone: "04101 8347534",
+  phoneDisplay: "04101 8347534",
+  phoneHref: "+4941018347534",
+  email: "info@kfz-hettich.de",
+  owner: "Sergej Hettich",
+  vatId: "31 031 03108",
+  websiteBy: "Johannes J. Matthies GmbH & Co. KG",
+  url: "https://kfz-hettich.de",
+  title: "Kfz-Meisterbetrieb Hettich | Autowerkstatt Pinneberg",
+  description:
+    "Service, Wartung und Reparatur für Ihr Fahrzeug – persönlich, transparent und direkt in Pinneberg. Hauptuntersuchung dienstags und donnerstags, online buchbar.",
+  emergencyNote: "In dringenden Fällen erreichen Sie uns telefonisch.",
+  openingHours: [
+    { day: "Montag", hours: "07:30 – 18:00 Uhr" },
+    { day: "Dienstag", hours: "07:30 – 18:00 Uhr" },
+    { day: "Mittwoch", hours: "07:30 – 18:00 Uhr" },
+    { day: "Donnerstag", hours: "07:30 – 18:00 Uhr" },
+    { day: "Freitag", hours: "07:30 – 13:00 Uhr" },
+    { day: "Samstag", hours: "geschlossen" },
+    { day: "Sonntag", hours: "geschlossen" },
+  ],
+} as const;
