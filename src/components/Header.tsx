@@ -37,10 +37,10 @@ export function Header() {
         <div className="mx-auto flex max-w-[1600px] items-center justify-between px-6 sm:px-10">
           <Link href="/" onClick={() => setMenuOpen(false)} className="relative z-[60] shrink-0">
             <Image
-              src="/brand/logo.jpg"
+              src="/brand/logo.svg"
               alt={company.legalName}
-              width={984}
-              height={304}
+              width={250}
+              height={64}
               priority
               className={cn("w-auto transition-all duration-300", scrolled ? "h-9" : "h-11")}
             />

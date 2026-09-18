@@ -9,7 +9,7 @@ export function Footer() {
       <div className="mx-auto max-w-[1600px] px-6 py-16 sm:px-10">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-3">
           <div>
-            <Image src="/brand/logo.jpg" alt={company.legalName} width={984} height={304} className="h-10 w-auto" />
+            <Image src="/brand/logo.svg" alt={company.legalName} width={250} height={64} className="h-10 w-auto" />
             <p className="mt-4 text-sm text-text-muted">{company.legalName}</p>
             <p className="text-sm text-text-muted">Pinneberg</p>
           </div>
